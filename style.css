@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+
+    background: #e3d5ca;
+}
+
+.box {
+    border-style: solid;
+    border-width: 15px;
+    width: 90%;
+    max-width: 570px;
+    background: linear-gradient(145deg, #22577a, #d4a373);
+    color: #fff;
+    margin: 35px auto 0;
+    border-radius: 120px;
+    padding: 50px 45px;
+    text-align: center;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.search input {
+    font-weight: 300;
+    border: 0;
+    outline: 0;
+    background: #e3d5ca;
+    color: black;
+    padding: 10px 25px;
+    height: 80px;
+    border-radius: 120px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 20px;
+}
+
+.search button {
+    border: 0;
+    outline: 0;
+    background: #e3d5ca;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.search button img {
+    width: 16px;
+}
+
+.weather-icon {
+    width: 170px;
+    margin-top: 30px;
+}
+
+.weather h1 {
+    font-size: 110px;
+    font-weight: 700;
+}
+
+.weather h2 {
+    font-size: 53px;
+    margin-top: -10px;
+    font-weight: 350;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity , .wind {
+    font-size: 38px;
+    margin-top: -6px;
+}
+
+.weather {
+    display: none;
+}
+
+.error {
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
+
+
+
