@@ -17,5 +17,8 @@
     "url": "https://github.com/filimmegg/project3/issues"
   },
   "homepage": "https://github.com/filimmegg/project3#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
 }
