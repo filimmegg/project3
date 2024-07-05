@@ -30,15 +30,15 @@ async function checkWeather(city) {
         
         // Dictionary mapping the weather conditions to their respective icons
         const weatherIcons = {
-            Clouds: "images/clouds.png",
-            Clear: "images/clear.png",
-            Rain: "images/rain.png",
-            Drizzle: "images/drizzle.png",
-            Mist: "images/mist.png"
+            Clouds: "clouds.png",
+            Clear: "clear.png",
+            Rain: "rain.png",
+            Drizzle: "drizzle.png",
+            Mist: "mist.png"
         };
 
         // Update the weather icon based on the current weather condition
-        weatherIcon.src = weatherIcons[data.weather[0].main] || "images/default.png";
+        weatherIcon.src = weatherIcons[data.weather[0].main] || "default.png";
 
         //  Display the weather section and hide the error message
         document.querySelector(".weather").style.display = "block";
