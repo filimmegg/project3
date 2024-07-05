@@ -1,1 +1,7 @@
 buildCommand: npm install &&npm run build
+
+services: 
+- name: web
+    type: web
+    env: node
+
