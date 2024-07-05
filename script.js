@@ -1,5 +1,5 @@
 //  API key for OpenWeatherApp API and URL for the OpenWeatherMap API
-const apiKey = "yourOwnAPIKey";
+const apiKey = "8ae7b5f74d43e60d436dd39c707e2911";
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 
 // Element selectors
